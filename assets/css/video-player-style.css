@@ -1,0 +1,20 @@
+.video-player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0 10px;
+    height: 45vh;
+    width: 100%;
+}
+
+.video-player {
+    display: flex;
+    justify-content: center;
+    height: 240px;
+}
+
+.video-player img {
+    border-radius: 5px;
+    max-width: 100%;
+}
